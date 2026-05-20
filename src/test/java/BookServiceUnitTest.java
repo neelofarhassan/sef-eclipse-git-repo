@@ -20,7 +20,7 @@ public class BookServiceUnitTest {
 
         Book book = new Book("1abcd", "First Book", 10 , 5.0, "kids");
 
-        assertFalse(service.addBook(book));
+        assertTrue(service.addBook(book));
     }
 
     @Test
